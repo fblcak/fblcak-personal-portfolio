@@ -1,0 +1,52 @@
+body {
+  background-color:#4FC1E9;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  text-align: center;
+  border-width: 10px;
+  width: 10%
+}
+h1{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 50px "Monaco", monospace;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+h2{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 50px "Monaco", monospace;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+
+p{
+text-align: center;  
+}
+.img{
+  text-align: center;
+  font: 5px "Monaco", monospace;
+}
+.interest{
+  text-align: center;
+}
+.educational{
+  text-align: center;
+}
+.skills{
+  text-align: center;
+}
+.experince{
+  text-align: center;
+}
+.hobbies{
+  text-align: center;
+font: 20px "Monaco", monospace;
+font-style: italic;
+}
