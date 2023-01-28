@@ -209,7 +209,7 @@ body::-webkit-scrollbar-thumb {
 .h1,
 .h2,
 .h3 {
-  color: var(--black);
+  color: var(--white);
   font-family: var(--ff-poppins);
 }
 
@@ -233,7 +233,7 @@ body::-webkit-scrollbar-thumb {
 
 .section-title { margin-block-end: 40px; }
 
-:is(.portfolio, .news) .section-title { margin-block-end: 60px; }
+:is(.interest, .news) .section-title { margin-block-end: 60px; }
 
 .card {
   position: relative;
@@ -287,7 +287,8 @@ body::-webkit-scrollbar-thumb {
 
 .has-scrollbar::-webkit-scrollbar-thumb { background-color: var(--black_70); }
 
-.has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 25px); }
+.has-scrollbar::-webkit-scrollbar-button { width: calc(50% - 50px); }
+
 
 
 
@@ -379,7 +380,7 @@ body::-webkit-scrollbar-thumb {
 .slide-down-btn { display: none; }
 
 .hero {
-  background-color: var(--cultured);
+  background-color: var(--black);
   padding-block-start: calc(var(--section-padding) + 30px);
 }
 
@@ -390,7 +391,8 @@ body::-webkit-scrollbar-thumb {
   margin-inline: auto;
 }
 
-.hero-title { margin-block: 10px 20px; }
+.hero-title {
+  margin-block: 10px 20px; }
 
 .hero-list { margin-block-end: 25px; }
 
@@ -399,7 +401,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: center;
   gap: 12px;
-  color: var(--black);
+  color: var(--white);
   font-size: var(--fs-17);
   padding-block: 6px;
 }
@@ -410,28 +412,6 @@ body::-webkit-scrollbar-thumb {
 .hero-list .list-link ion-icon { transition: var(--transition); }
 
 .hero-list .list-link:is(:hover, :focus) ion-icon { transform: rotate(-45deg); }
-
-.exp-list .list-item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-  font-family: var(--ff-poppins);
-  line-height: 1.4;
-}
-
-.exp-list .list-item:not(:last-child) { margin-block-end: 15px; }
-
-.exp-list .strong {
-  color: var(--black);
-  font-size: var(--fs-35);
-  font-weight: var(--fw-600);
-}
-
-.exp-list .span { font-size: var(--fs-13); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -497,58 +477,6 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #PRICEING
-\*-----------------------------------*/
-
-.pricing { background-color: var(--cultured); }
-
-.pricing .section-text { margin-block-end: 60px; }
-
-.pricing-list {
-  display: grid;
-  gap: 30px;
-}
-
-.pricing-card {
-  --color: var(--black);
-  --icon-color: var(--theme-color);
-
-  background-color: var(--white);
-  border-radius: var(--radius-10);
-  box-shadow: var(--shadow);
-  line-height: 1.2;
-  padding: 30px;
-  transition: var(--transition);
-}
-
-.pricing-card ion-icon {
-  color: var(--icon-color);
-  flex-shrink: 0;
-  font-size: 25px;
-  transition: var(--transition);
-}
-
-.pricing-card .card-title {
-  color: var(--color);
-  font: unset;
-  font-family: var(--ff-poppins);
-  margin-block: 14px 10px;
-  transition: var(--transition);
-}
-
-.pricing-card .card-price {
-  color: var(--color);
-  font-family: var(--ff-poppins);
-  transition: var(--transition);
-}
-
-.pricing-card:is(:hover, :focus-within) {
-  background-color: var(--theme-color);
-  --color: var(--white);
-  --icon-color: var(--white);
-}
-
 
 
 
@@ -567,7 +495,7 @@ body::-webkit-scrollbar-thumb {
   #CONTACT
 \*-----------------------------------*/
 
-.contact { background-color: var(--cultured); }
+.contact { background-color: var(--black); }
 
 .contact-list { margin-block: 40px 50px; }
 
@@ -587,12 +515,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .contact-link {
-  color: var(--black);
+  color: var(--white);
   font-family: var(--ff-poppins);
 }
 
 .input-field {
-  color: var(--black);
+  color: var(--white);
   font-family: var(--ff-poppins);
   font-size: var(--fs-13);
   letter-spacing: 1.4px;
@@ -625,7 +553,7 @@ textarea.input-field {
   transition: var(--transition);
 }
 
-.submit-btn:is(:hover, :focus) { background-color: var(--black); }
+.submit-btn:is(:hover, :focus) { background-color: var(--white); }
 
 .submit-btn ion-icon { transition: var(--transition); }
 
@@ -696,21 +624,7 @@ textarea.input-field {
 
 
 
-  /**
-   * PRICING
-   */
-
-  .pricing-card {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .pricing-card .card-title {
-    margin-block: 0;
-    margin-inline-end: auto;
-  }
+  /
 
 }
 
