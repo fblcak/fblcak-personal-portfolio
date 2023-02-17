@@ -16,7 +16,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing
 
-To install **Emezak-Eduhub**, follow these steps:
+To install **fblcak-personal-portfolio
+**, follow these steps:
 
 Linux and macOS:
 
